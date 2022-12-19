@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+	background-color:pink;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact form{
+    flex:1 1 40rem;
+    padding:2rem;
+    margin:1rem;
+    margin-top: 4rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.3);
+}
+
+.contact .content{
+    flex:1 1 40rem;
+    padding:3rem 1rem;
+}
+
+.contact form .box{
+    width:100%;
+    color:#333;
+    height:4rem;
+    font-size: 1.7rem;
+    border-bottom: .2rem solid rgba(0,0,0,.3);
+    text-transform: none;
+    margin:1rem 0;
+}
+
+.contact form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.contact form .box:focus{
+    border-color: var(--orange);
+}
+
+.contact form .message{
+    height:15rem;
+    resize: none;
+}
+
+.contact .content h3{
+    font-size: 4rem;
+    color:#444;
+}
+
+.contact .content p{
+    font-size: 1.8rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.contact .content .icons{
+    font-size: 1.7rem;
+    color:#333;
+    padding:.7rem 0;
+}
+
+.contact .content .icons i{
+    padding-right: .5rem;
+    color:var(--orange);
+}
+.contact .btn
+{
+	color:#fff;
+	font-size: 2rem;
+	background-color:#6c5878;
+    
+}

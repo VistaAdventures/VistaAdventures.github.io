@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+     <link rel="stylesheet" type="text/css" href="style2.css">
+	  </head>
+    <body>
+		
+	<section class="zoom">
+	<img src="mountain1.png" id="layer1">
+	<img src="mountain2.png" id="layer2">
+	<img src="text.png" id="text">
+	<img src="bg.jpg" id="bg">
+	
+	</section>
+	<section class="content">
+	<h1> Vista Adventurous Trek and Travels</h1>
+	<p>Founded in the year 2005 as Vista Adventurous Trek and Travel.com, an online travel platform, the company boosted as a private limited in the year 2013 and has emerged as the “Best Upcoming Inbound Tour Operators in India”. It has been awarded in the category of “Excellence in the Tourism Industry” by World Tourism Brand Academy.
+
+The Noida based company, with a strong presence in inbound travel trade and corporate segment, today has excelled its branches over Delhi, Mumbai, Agra, Jaipur, Haridwar, Rishikesh & Badrinath. </p><br>
+<p>The company with its professionally managed travel engine specializes mainly in organizing Adventure, Cultural, Religious, hill station & wildlife tours in India through a sprawling network. It offers 24 X 7 hours services that include travel planning, itinerary design, hotel bookings, ticket reservations and transport facilities. It also provides holiday packages, customized as per client’s need and budget.</p><br>
+
+<p>Why Us?
+Vista Adventurous Trek and Travel Pvt. Ltd. is an award winning travel organization and excels with quality services from its experienced staffs. Over the years the company has received positive feedbacks from its existing clients and hence one can expect a cordial reception.</p><br>
+<p>Our Motto:
+Customer satisfaction: It’s the prime motto of our business, which has helped us to build a good network with travellers from the farthest corners of the world. The company today holds more than 100,000 satisfied travellers and is still framing the travel diaries of fresh clients. </p>
+	
+	</section>
+	<script>
+		var layer1= document.getElementById('layer1')
+		scroll=window.pageYOffset;
+		document.addEventListener('scroll',function(e){
+		var offset=window.pageYOffset;
+		scroll=offset;
+		layer1.style.width=(100+scroll/5)+'%';
+		});
+		
+		var layer2=document.getElementById('layer2')
+		scroll=window.pageYOffset;
+		document.addEventListener('scroll',function(e){
+		var offset=window.pageYOffset;
+		scroll=offset;
+		layer2.style.width=(100+scroll/5)+'%';
+		layer2.style.left=scroll/50+'%';
+		});
+		
+		var text=document.getElementById('text')
+		scroll=window.pageYOffset;
+		document.addEventListener('scroll',function(e){
+		var offset=window.pageYOffset;
+		scroll=offset;
+		layer2.style.width=(100+scroll/5)+'%';
+		text.style.top= - scroll/20+'%';
+		});
+		</script>
+		<br><br>
+		<div class="video-container">
+        <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+	
+	
+	</body>
+	</html>
+	

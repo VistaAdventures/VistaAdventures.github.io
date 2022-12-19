@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	<meta charset ="UTF-8">
+        <title>  </title>
+		<link rel="styleshet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="style1.css">
+		
+		
+		
+        
+    </head>
+    <body>
+	<script src="js/script.js" defer></script>
+	<header>
+	<a href="#" class "logo">Logo</a>
+	<ul>
+	<li><a href="#" class="active"> Home</a></li>
+	<li><a href="index.html"> index</a></li>
+	<li><a href="#"> destination</a></li>
+	
+	<li><a href="#"> Gallary</a></li>
+	<li><a href="#"> Book Now</a></li>
+	</ul>
+	</header>
+        <section>
+            <img src="bg3.jpg" id="bg">
+            <h2 id="text">Adventure</h2>
+
+            <img src="man.png" id="man">
+            <img src="clouds_1.png" id="clouds_1">
+            <img src="clouds_2.png" id="clouds_2">
+            <img src="mountain_left.png" id="mountain_left">
+            <img src="mountain_right.png" id="mountain_right">
+            
+        </section>
+        <div class="sec">
+            <h2>Adventure is here </h2>
+            <p>Mountain climbing has been on the bucket list of many people. It is an activity which is considered to be very exciting and adventurous. Moreover, 
+			it is something you will find to be very common all across the world.
+			climbing is an expedition that brings you closer to nature and helps you connect with it closely.Mountaineering is considered to be the ultimate adventure. 
+			This is because it includes numerous adventurous activities. It is an activity that teaches a lot about facing challenges and overcoming our fears. Moreover, it also makes us fitter both mentally and physically.
+			It can be easily that those who have tried it have said to come out as better people through this experience.</p><br>
+			<p> We provide professionally guided mountain climbs and expeditions around the world, chosen for their variety and quality, offering all sorts of adventures for both the aspiring and experienced climber. All of our guides are all qualified and highly experienced and we have an excellent track record of professionalism and safety. 
+			We also specialise in tailor made mountain trips and guided itineraries in all the greater ranges.</p>
+			<p>We offer guided mountain climbs to many of the world’s highest peaks. We have guided trips to five of the Seven Summits stretching across the globe. 
+			Our climbs cover everything from technical terrain to a strenuous trek</p><br>
+			<h3> Let's go to Mountain Safari.... </h3>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+        <script>
+			
+            gsap.to("#bg",{
+                scrollTrigger :{
+				
+                    scrub: 1
+                },
+                scale:1.5
+            });
+			gsap.to("#man",{
+                scrollTrigger :{
+                    scrub: 1
+                },
+                scale:0.5
+            });
+
+            gsap.to("#mountain_left",{
+                scrollTrigger :{
+                    scrub: 1
+                },
+                x:-500
+             });
+
+             gsap.to("#mountain_right",{
+                scrollTrigger :{
+                    scrub: 1
+                },
+                x:500
+             });
+
+             gsap.to("#clouds_1",{
+                scrollTrigger :{
+                    scrub: 1
+                },
+                x:200
+             });
+
+             gsap.to("#clouds_2",{
+                scrollTrigger :{
+                    scrub: 1
+                },
+                x:-200
+             });
+
+             gsap.to("#text",{
+                scrollTrigger :{
+                    scrub: 1
+                },
+                y:500
+             });
+			 </script>
+			 
+			 
+			 </body>
+			 </html>
+			 
+			 
+
+
+            
+
+
+
+        

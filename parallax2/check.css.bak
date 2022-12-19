@@ -1,0 +1,45 @@
+#colorlib-reservation {
+  clear: both;
+  z-index: 1; }
+  #colorlib-reservation .search-wrap {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 9;
+    margin-top: -4em !important;
+    padding: 0; }
+  #colorlib-reservation .booknow {
+    margin-top: 5px;
+    display: block; }
+    #colorlib-reservation .booknow h2, #colorlib-reservation .booknow span {
+      color: #fff; }
+    #colorlib-reservation .booknow h2 {
+      text-transform: uppercase;
+      font-size: 24px;
+      margin-bottom: 20px; }
+    #colorlib-reservation .booknow span {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+  #colorlib-reservation .nav-tabs li {
+    padding: 0;
+    margin-right: 2px;
+    background: #FFDD00;
+    font-size: 16px !important; }
+    #colorlib-reservation .nav-tabs li a {
+      padding: 15px 20px !important;
+      color: #000; }
+    #colorlib-reservation .nav-tabs li.active {
+      color: #fff !important !important;
+      background: #2C2E3E !important; }
+  @media screen and (max-width: 768px) {
+    #colorlib-reservation .nav-tabs {
+      margin-left: 10px; }
+      #colorlib-reservation .nav-tabs li {
+        font-size: 13px !important; }
+        #colorlib-reservation .nav-tabs li a {
+          padding: 10px !important; } }
+  #colorlib-reservation .tab-content {
+    background: #2C2E3E;
+    padding: 30px 60px; }

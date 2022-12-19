@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function current()
+{
+	document.getElementById("img1").src = "bad.png";
+}
+function event2(y)
+{
+ document.getElementById("img1").src = "good.png";
+}
+</script>
+</head>
+<body>
+
+<img id="img1" onmouseover="current()" onmouseout="old()" src="good.png"/>
+</body>
+
+</html>

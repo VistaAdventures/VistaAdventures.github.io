@@ -1,0 +1,10 @@
+import java.net.*;
+import java.io.*;
+import java.util.*;
+public class ServerDemo
+{
+String send,Recv;
+ServerSocket ss=new ServerSocket(7777);
+System.out.println("waiting for connection");
+Socket s=ss.accept();
+System.out.println("connected");
